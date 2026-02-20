@@ -38,12 +38,12 @@ git push -u origin main
 3. 选择 **Deploy from GitHub repo**
 4. 授权 Railway 访问 GitHub，选择仓库 `zhulong`
 
-### 2. 设置根目录
+### 2. 设置根目录（重要）
 
 1. 在项目内点击 **后端服务**
 2. 进入 **Settings** → **Source**
-3. 将 **Root Directory** 设为 `backend`
-4. 保存
+3. **将 Root Directory 留空或删除**（不要设为 backend）
+4. 项目根目录的 Dockerfile 会被使用，绕过 Railpack
 
 ### 3. 配置变量（可选）
 

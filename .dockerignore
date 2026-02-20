@@ -1,0 +1,6 @@
+frontend/
+desktop/
+.git/
+.gitignore
+*.md
+*.bat

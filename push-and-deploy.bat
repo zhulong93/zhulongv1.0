@@ -24,7 +24,7 @@ if errorlevel 1 (
 )
 
 echo [3/4] 提交...
-git commit -m "使用 Dockerfile 修复 Railway 构建" 2>nul
+git commit -m "根目录 Dockerfile 强制 Railway 使用 Docker 构建" 2>nul
 if errorlevel 1 (
     echo 无可提交的更改，或已是最新
 ) else (
