@@ -1,0 +1,23 @@
+# 烛龙 - 核心依赖
+# 后端与脚本通用
+
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# 数据库
+sqlalchemy>=2.0.0
+aiosqlite>=0.19.0
+
+# HTTP请求
+httpx>=0.25.0
+feedparser>=6.0.0
+
+# 自然语言/AI (可选)
+# openai>=1.0.0
+# tiktoken>=0.5.0
+
+# 工具
+python-dotenv>=1.0.0
+pydantic>=2.0.0
+pydantic-settings>=2.0.0

@@ -1,0 +1,14 @@
+{
+  "name": "zhulong-desktop",
+  "version": "1.0.0",
+  "description": "烛龙 - Windows 桌面端",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder --win"
+  },
+  "devDependencies": {
+    "electron": "^28.0.0",
+    "electron-builder": "^24.9.0"
+  }
+}

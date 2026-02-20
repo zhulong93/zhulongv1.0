@@ -1,0 +1,9 @@
+{
+  "name": "烛龙",
+  "short_name": "烛龙",
+  "description": "AI数字分身 - 蒋延春",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f0f1a",
+  "theme_color": "#1a1a2e"
+}
